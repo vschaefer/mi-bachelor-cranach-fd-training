@@ -40,9 +40,9 @@ Icon
 # ---------------
 .sass-cache/
 node_modules/
-kirby/.sass-cache/
-kirby/tmp/
-kirby/dist/
+.sass-cache/
+tmp/
+dist/
 
 # Static
 # ---------------
