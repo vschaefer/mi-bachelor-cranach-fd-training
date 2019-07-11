@@ -1,0 +1,15 @@
+html,
+body {
+  background-color: $darker;
+  padding: $s;
+  font-family: $font-sans-serif;
+  color: $light;
+}
+
+main{
+  margin-bottom: $xl;
+}
+
+a {
+  color: $accent;
+}

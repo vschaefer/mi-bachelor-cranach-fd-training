@@ -1,0 +1,12 @@
+.s-cda-header{
+
+  & a.logo{
+    font-weight: 100;
+    text-decoration: none;
+    display:block;
+    border-bottom: solid 1px $dark;
+    padding-bottom: $l;
+    margin-bottom: $xl;
+  }
+
+}

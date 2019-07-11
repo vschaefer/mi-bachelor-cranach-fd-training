@@ -1,0 +1,27 @@
+.m-card-image-with-caption{
+
+  border-radius: $border-radius;
+  overflow: hidden;
+  background-color: #000;
+  display: flex;
+  position: relative;
+
+  > img{
+    width: 100%;
+  }
+
+  > figcaption{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: $m;
+    padding-top: $xl;
+    padding-bottom: $xs;
+
+    > .additional-info{
+      display: none;
+    }
+  }
+
+}

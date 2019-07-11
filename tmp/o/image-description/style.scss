@@ -1,0 +1,35 @@
+.o-image-description{
+  padding: 0;
+  margin: 0;
+
+  h2{
+    margin-bottom: $xl;
+  }
+
+  dl.rootdata{
+
+    margin-bottom: $xl;
+
+    dt{
+      display: block;
+
+      min-width: $s;
+      padding-top: $s;
+
+      color: $lighter;
+
+      &::after{
+          content: ":";
+          display: inline-block;
+          padding-right: $xs;
+      }
+    }
+
+    dd{
+      border-bottom: solid 1px $dark;
+      padding-bottom: $s;
+      margin-left: 0;
+    }
+  }
+
+}

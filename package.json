@@ -1,0 +1,23 @@
+{
+  "name": "FrontendDevelopmentTraining",
+  "version": "1.0.0",
+  "description": "Cranach Testdaten für den Frontend Development Training",
+  "repository": "git@github.com:cnoss/mi-bachelor-cranach-fd-training.git",
+  "scripts": {
+    "watch": "gulp watch"
+  },
+  "author": "Christian Noss",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "concat": "^1.0.3",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "sass": "^1.20.3"
+  }
+}
